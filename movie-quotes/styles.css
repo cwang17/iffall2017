@@ -1,0 +1,20 @@
+html {
+	font-family: "monospace";
+	
+	background-color: cornsilk;
+}
+h1 {
+	color: orangered;
+	font-family: "impact";
+	font-weight: bold;
+	font-size: 48px;
+}
+strong {
+	color: black;
+}
+em {
+	color: orangered;
+}
+#tone {
+	color: orangered;
+}
