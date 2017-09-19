@@ -1,0 +1,74 @@
+html, body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	margin-bottom:5%;
+}
+h2 {
+	color: gray;
+	font-family: 'avenir', helvetica, arial, sans-serif;
+}
+code {
+	font-size: 14px;
+	color: gray;
+	display: block;
+	font-family: 'avenir', helvetica, arial, sans-serif;
+}
+.subtitle {
+	font-size: 24px;
+	font-family: 'avenir', helvetica, arial, sans-serif;
+}
+.font-weight .normal {
+	font-weight: normal;
+}
+.font-weight .bold {
+	font-weight: bold;
+}
+.font-style .normal {
+	font-style: normal;
+}
+.font-style .italic {
+	font-style: italic;
+}
+.letter-spacing .normal {
+	letter-spacing: normal;
+}
+.letter-spacing .positive {
+	letter-spacing: .3em;
+}
+.letter-spacing .negative {
+	letter-spacing: -0.1em;
+}
+.text-decoration .none {
+	text-decoration: none;
+}
+.text-decoration .underline {
+	text-decoration: underline;
+}
+.text-decoration .line-through {
+	text-decoration: line-through;
+}
+.text-decoration .overline {
+	text-decoration: overline;
+}
+.text-transform .none {
+	text-transform:none;
+}
+.text-transform .uppercase {
+	text-transform:uppercase;
+}
+.text-transform .lowercase {
+	text-transform:lowercase;
+}
+.text-transform .capitalize {
+	text-transform:capitalize;
+}
+
+
+
+
+
+
+
+
+
+
