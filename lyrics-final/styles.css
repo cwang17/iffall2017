@@ -1,0 +1,141 @@
+html {
+	font-family: futura, "Trebuchet MS", Arial, sans-serif;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url('drive.jpg');
+	background-position: center ;
+	background-color: rgb(255,253,231);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	border: 36px solid rgb(255,253,231);
+}
+h1{
+	margin-top: -23px;
+    position: fixed;
+    margin-bottom: 0px;
+    font-size: 78.25pt;
+    font-weight: bold;
+    color: rgb(255,253,231);
+}
+h2{
+	font-size: 20pt;
+    font-weight: normal;
+    letter-spacing: 0.4rem;
+    color: rgb(255,253,231);
+    margin-top: 96px;
+    margin-left: 36px;
+    position: fixed;
+}
+.lyrics {
+	color: rgb(136,140,123);
+}
+.lyrics p{
+	font-size: 10.5pt;
+	line-height: 12pt;
+	font-weight: normal;
+}
+.lyrics h3{
+	font-size: 20pt;
+	font-weight: bold;
+}
+.lyrics h4{
+	font-size: 13pt;
+	line-height: 24pt;
+	font-weight: lighter;
+}
+.lyrics #subheader{
+	font-size: 13pt;
+}
+#block-one{
+    position: relative;
+    margin-left: 283px;
+    margin-top: 143px;
+    background-color: rgb(255,253,231);
+    display: block;
+    width: 233px;
+    padding: 6px 12px;
+}
+#block-two {
+	position: relative;
+    margin-left: 128px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: rgb(255,253,231);
+    display: block;
+    width: 233px;
+    padding: 6px 12px;
+}
+#block-three {
+		position: relative;
+	margin-left: 283px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: rgb(255,253,231);
+	display: block;
+	width: 233px;
+	padding: 6px 12px;	
+}
+#block-four {
+		position: relative;
+	margin-left: 383px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: rgb(255,253,231);
+	display: block;
+	width: 233px;
+	padding: 6px 12px;	
+}
+#block-five {
+		position: relative;
+	margin-left: 733px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: rgb(255,253,231);
+	display: block;
+	width: 233px;
+	padding: 6px 12px;	
+}
+#block-six {
+		position: relative;
+	margin-left: 855px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: rgb(255,253,231);
+	display: block;
+	width: 233px;
+	padding: 6px 12px;	
+}
+#block-seven {
+		position: relative;
+	margin-left: 980px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: rgb(255,253,231);
+	display: block;
+	width: 233px;
+	padding: 6px 12px;	
+}
+#block-eight {
+		position: relative;
+	margin-left: 780px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color: rgb(255,253,231);
+	display: block;
+	width: 233px;
+	padding: 6px 12px;	
+}
+#block-nine {
+		    position: relative;
+    margin-left: 553px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    background-color: rgb(255,253,231);
+    display: block;
+    width: 233px;
+    padding: 6px 12px;	
+}
