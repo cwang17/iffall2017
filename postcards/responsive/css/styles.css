@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+	background-image:url('images/compliments.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+a {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    }
+.quote {
+	font-family: "ff-meta-web-pro", sans-serif;
+	font-weight: bold;
+	color: white;
+}
+#author{
+	font-weight: normal;
+	font-size: 20px;
+}
+@media screen and (min-width: 768px){
+	.quote {
+	font-size: 32px;
+	padding-top: 165px;
+	padding-left: 56px;
+	width: 610px;
+	}
+	#author {
+	padding-top: 42px;
+	text-align: left;
+	}
+}
+@media screen and (max-width: 768px) {
+	.quote {
+	font-size: 20px;
+    padding-top: 109px;
+    padding-left: 70px;
+    width: 300px;
+	}
+	#author {
+    padding-top: 42px;
+    text-align: left;
+    width: 195px;
+}
+@media screen and (max-width: 425px){
+	.quote {
+	font-size: 20px;
+    padding-top: 75px;
+    text-align: left;
+    padding-left: 20px;
+    width: 150px;
+	}
+	#author {
+	max-width: 425px;
+    padding-top: 450px;
+    text-align: right;
+    padding-left: 60%;
+    position: absolute;
+    right: 1em;
+	}
+}

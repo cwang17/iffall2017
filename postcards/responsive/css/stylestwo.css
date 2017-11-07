@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+	background-image:url('images/face.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+a {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    }
+.quote {
+	font-family: "ff-meta-web-pro", sans-serif;
+	font-weight: bold;
+	color: black;
+}
+#author{
+	font-weight: normal;
+	font-size: 20px;
+}
+@media screen and (min-width: 768px){
+	.quote {
+	font-size: 32px;
+	 width: 328px;
+    max-width: 425px;
+    padding-top: 412px;
+    text-align: right;
+    padding-left: 60%;
+    position: absolute;
+    right: 1em;	}
+	#author {
+    padding-top: 12px;
+    text-align: right;
+    padding-left: 60%;
+    position: absolute;
+    right: 1em;
+	}
+}
+@media screen and (max-width: 768px) {
+	.quote {
+	 font-size: 20px;
+    width: 27%;
+    max-width: 425px;
+    padding-top: 350px;
+    text-align: right;
+    padding-left: 60%;
+    position: absolute;
+    right: 1em;
+	}
+	#author {
+    width: 218px;
+    max-width: 601px;
+    padding-top: 22px;
+    text-align: right;
+    padding-left: 60%;
+    position: absolute;
+    right: 1em;
+}
+@media screen and (max-width: 425px){
+	.quote {
+	font-size: 20px;
+    padding-top: 95px;
+    text-align: left;
+    width: 85%;
+    color: white;
+	}
+	#author {
+    padding-top: 489px;
+    text-align: left;
+    position: absolute;
+    left: -111px;
+    width: 320px;
+    color: white;
+	}
+}
