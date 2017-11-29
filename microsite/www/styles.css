@@ -1,0 +1,110 @@
+html, body {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: white;
+	text-align: center;
+	background-image:url(images/stars.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.quote{
+	font-family: monospace;
+	padding-bottom: 50px;
+}
+.titlescreen {
+	/*background-image: url(images/titlescreen.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*background-attachment: scroll;*/
+	margin: auto;
+	width: auto;
+	padding-top: 550px;
+	padding-bottom: 0px;
+	/*font-size: 5rem;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;*/
+}
+#logo {
+	padding-top: 500px;
+}
+#one {
+	background-image: url(images/image1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 90%;
+	margin: auto;
+	padding-top: 750px;
+	margin-top: 500px;
+}
+#two {
+	background-image: url(images/image2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: auto;
+	margin: auto;
+	padding-top: 735px;
+}
+#three {
+	background-image: url(images/image3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	margin: auto;
+	padding-top: 735px;
+}
+#four {
+	background-image: url(images/image4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	margin: auto;
+	padding-top: 735px;
+}
+#five {
+	background-image: url(images/image5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	margin: auto;
+	padding-top: 750px;
+}
+#six {
+	background-image: url(images/image6.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	width: auto;
+	margin-top: 300px;
+	margin-left: 15%;
+	padding-top: 350px;
+}
+#seven {
+	background-image: url(images/image7.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: auto;
+	margin: auto;
+	margin-top: 300px;
+
+}
+#dave1 {
+	padding-top: 100px;
+}
+#hal1 {
+	padding-top:200px ;
+}
+#dave2 {
+	padding-top: 200px;
+}
+#eight{
+	background-image: url(images/image8.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: auto;
+	margin: auto;
+	margin-top: 250px;
+	padding-top: 1500px;
+	padding-bottom: 100px;
+}
+a#btn_hal:hover{
+	-webkit-filter:saturate(2);
+
+}
