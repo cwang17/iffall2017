@@ -1,0 +1,91 @@
+html, body {
+	background-image: url(images/back.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	font-family: "Inconsolata", monospace;
+	color: white;
+	width: 1000px;
+}
+nav {
+	font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    word-spacing: 10rem;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation:opac 3s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.btn {
+	cursor: pointer;
+}
+.active{
+	text-decoration: underline;
+}
+.hover {
+	text-decoration: underline;
+}
+.text {
+display: none;
+}
+#plot_text{
+	text-align: left;
+	background-color: rgba(0,0,0,0.5);
+    margin-left: 140px;
+    margin-bottom: 500px;
+    margin-top: 120px;
+	line-height: 1.2rem;
+	width: 350px;
+ }
+#anal_text{
+	text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 408px;
+    margin-bottom: 500px;
+    margin-top: 120px;
+    line-height: 1.2rem;
+    width: 350px;
+}
+#cast_text{
+	text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 714px;
+    margin-bottom: 500px;
+    margin-top: 120px;
+    line-height: 1.2rem;
+    width: 350px;
+    list-style: none;
+}
+#trivia_text{
+	text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 950px;
+    margin-bottom: 500px;
+    margin-top: 120px;
+    line-height: 1.2rem;
+    width: 350px;
+	list-style-type: square;
+}
+#btn_logo {
+	position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+a#btn_logo:hover{
+	-webkit-filter:opacity(80%);
+}
+#btn_hal {
+	position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+a#btn_hal:hover{
+	-webkit-filter:saturate(2);
+}
