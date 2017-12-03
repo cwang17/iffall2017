@@ -1,0 +1,157 @@
+html, body {
+	color: white;
+	text-align: center;
+}
+.quote{
+	font-family: monospace;
+	padding-bottom: 25px;
+	line-height: 1.2rem;
+}
+.titlescreen {
+    background-image:url(images/stars2.png);
+	background-attachment: scroll;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 0;
+	padding-bottom: 280px;
+}
+.titlescreen h1{
+	margin: auto;
+    width: auto;
+    padding-top: 384px;
+    padding-bottom: 26px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4.5rem;
+    word-spacing: 1.3rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+#space-odyssey-animate{
+	animation:opac 6s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+.scroll-down {
+	position: absolute;
+    padding-left: 690px;
+    padding-top: 157px;
+    padding-bottom: 0px;
+}
+.scroll-down-fading{
+	-webkit-animation: 6s ease;
+	animation:fading 2s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
+.one {
+	background-image: url(images/image1-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: block;
+	position: relative;
+	height: 100%;
+	width: auto;
+	margin-bottom: 0;
+	padding-top: 650px;
+    padding-bottom: 30px;
+}
+.two {
+	background-image: url(images/stars2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+#spinning-bone{
+	width: 600px;
+    margin: auto;
+    padding-top: 260px;
+    padding-bottom: 150px;
+}
+#three {
+	background-image: url(images/image3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: auto;
+	margin: auto;
+	padding-top: 700px;
+	padding-bottom: 30px;
+}
+#four {
+	background-image: url(images/stars2.png);
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: auto;
+	padding-bottom: 80px;
+}
+#crater{
+	padding-top: 230px;
+	padding-bottom: 80px;
+}
+#five {
+	background-image: url(images/image5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	width: auto;
+	margin: auto;
+	padding-top: 720px;
+	padding-bottom: 30px;
+}
+#six {
+	background-image: url(images/stars2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	margin-top: auto;
+	padding-top: 320px;
+	padding-bottom: 80px;
+}
+#spaceship {
+	width: 800px;
+	padding-bottom: 30px;
+}
+#seven {
+	background-image: url(images/stars2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	margin-top: auto;
+	padding-top: 320px;
+	padding-bottom: 60px;
+}
+#floating-dave {
+	width: 600px;
+	padding-bottom: 100px;
+}
+#dave-convo{
+	line-height: 14rem;
+}
+#eight{
+	background-image: url(images/image8.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	padding-top: 650px;
+	padding-bottom: 50px;
+}
+#btn_hal{
+	animation:fading 2s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
+a#btn_hal:hover{
+	animation: stop;
+	-webkit-filter:saturate(2);
+}

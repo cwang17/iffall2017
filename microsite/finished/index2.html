@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<title>2001: A Space Odyssey</title>
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("span").hover(function(){
+        $(this).css("text-decoration", "underline");
+        }, function(){
+        $(this).css("text-decoration", "none");
+    });
+    $("#btn_plot").click(function(){
+    	$("span").removeClass("active");
+        $(this).toggleClass("active");
+      	$(".text").fadeOut("slow", function(){
+        	$("#plot_text").fadeIn("slow");
+        });
+    });
+    $("#btn_analysis").click(function(){
+        $("span").removeClass("active");
+        $(this).toggleClass("active");
+        $(".text").fadeOut("slow", function(){
+            $("#anal_text").fadeIn("slow");
+        });
+    });
+    $("#btn_cast").click(function(){
+    	$("span").removeClass("active");
+        $(this).toggleClass("active");
+      	$(".text").fadeOut("slow", function(){
+        	$("#cast_text").fadeIn("slow");
+        });
+    });
+    $("#btn_trivia").click(function(){
+        $("span").removeClass("active");
+        $(this).toggleClass("active");
+        $(".text").fadeOut("slow", function(){
+            $("#trivia_text").fadeIn("slow");
+        });
+    });
+});
+</script>
+</head>
+<body>
+<nav>
+<span class="btn" id="btn_plot">PLOT</span>
+<span class="btn" id="btn_analysis">ANALYSIS</span>
+<span class="btn" id="btn_cast">CAST</span>
+<span class="btn" id="btn_trivia">TRIVIA</span>
+</nav>
+<div class="text" id="plot_text">
+	<p>"2001" is a story of evolution. Sometime in the distant past, someone or something nudged evolution by placing a monolith on Earth (presumably elsewhere throughout the universe as well). Evolution then enabled humankind to reach the moon's surface, where yet another monolith is found, one that signals the monolith placers that humankind has evolved that far. Now a race begins between computers (HAL) and human (Bowman) to reach the monolith placers. The winner will achieve the next step in evolution, whatever that may be.</p></div>
+<div class="text" id="anal_text">
+    <p>Kubrick encouraged people to explore their own interpretations of the film, and refused to offer an explanation of “what really happened” in the movie, preferring instead to let audiences embrace their own ideas and theories. In a 1968 interview with Playboy, Kubrick stated:</p>
+
+    <p>You’re free to speculate as you wish about the philosophical and allegorical meaning of the film—and such speculation is one indication that it has succeeded in gripping the audience at a deep level—but I don’t want to spell out a verbal road map for 2001 that every viewer will feel obligated to pursue or else fear he’s missed the point.</p>
+
+    <p>Neither of the two creators equated openness to interpretation with meaninglessness, although it might seem that Clarke implied as much when he stated, shortly after the film’s release, “If anyone understands it on the first viewing, we’ve failed in our intention.” When told of the comment, Kubrick said “I believe he made it [the comment] facetiously. The very nature of the visual experience in 2001 is to give the viewer an instantaneous, visceral reaction that does not—and should not—require further amplification.”When told that Kubrick had called his comment ‘facetious’, Clarke responded
+    </p>
+
+    <p>I still stand by this remark, which does not mean one can’t enjoy the movie completely the first time around. What I meant was, of course, that because we were dealing with the mystery of the universe, and with powers and forces greater than man’s comprehension, then by definition they could not be totally understandable. Yet there is at least one logical structure—and sometimes more than one—behind everything that happens on the screen in “2001”, and the ending does not consist of random enigmas, some critics to the contrary.</p>
+
+    <p>In a subsequent discussion of the film with Joseph Gelmis, Kubrick said his main aim was to avoid “intellectual verbalization” and reach “the viewer’s subconscious”. He said he did not deliberately strive for ambiguity, that it was simply an inevitable outcome of making the film non-verbal, though he acknowledged that this ambiguity was an invaluable asset to the film. He was willing then to give a fairly straightforward explanation of the plot on what he called the “simplest level”, but unwilling to discuss the metaphysical interpretation of the film which he felt should be left up to the individual viewer.</p>     
+</div>
+<div class="text" id="cast_text">
+<li>Keir Dullea ... Dr. Dave Bowman</li>
+<li>Gary Lockwood ... Dr. Frank Poole</li>
+<li>William Sylvester ... Dr. Heywood R. Floyd</li>
+<li>Daniel Richter ... Moon-Watcher</li>
+<li>Leonard Rossiter ... Dr. Andrei Smyslov</li>
+<li>Margaret Tyzack ... Elena</li>
+<li>Robert Beatty ... Dr. Ralph Halvorsen</li>
+<li>Sean Sullivan ... Dr. Bill Michaels </li>
+<li>Douglas Rain ... HAL 9000 (voice)</li>
+<li>Frank Miller ... Mission Controller (voice)</li>
+<li>Bill Weston ... Astronaut</li>
+<li>Ed Bishop ... Aries-1B Lunar Shuttle Captain (as Edward Bishop)</li>
+<li>Glenn Beck ... Astronaut</li>
+<li>Alan Gifford ... Poole's Father</li>
+<li>Ann Gillis ... Poole's Mother</li>
+<li>Edwina Carroll ... Aries-1B Stewardess
+<li>Penny Brahms ... Stewardess</li>
+<li>Heather Downham ... Stewardess</li>
+<li>Mike Lovell ... Astronaut</li>
+<li>John Ashley ... Ape</li>
+<li>Jimmy Bell ... 
+Ape</li>
+<li>David Charkham ... Ape</li>
+<li>Simon Davis ... Ape</li>
+<li>Jonathan Daw ... Ape</li>
+<li>Péter Delmár ... Ape (as Peter Delmar)</li>
+<li>Terry Duggan ... Ape Attacked by Leopard</li>
+<li>David Fleetwood ... Ape</li>
+<li>Danny Grover ... Ape</li>
+<li>Brian Hawley ... Ape</li>
+<li>David Hines ... Ape</li>
+<li>Tony Jackson ... Ape</li>
+<li>John Jordan ... Ape</li>
+<li>Scott MacKee ... Ape (as Scott Mackee)</li>
+<li>Laurence Marchant ... Ape</li>
+<li>Darryl Paes ... Ape</li>
+<li>Joe Refalo ... Ape</li>
+<li>Andy Wallace ... Ape</li>
+<li>Bob Wilyman ... Ape</li>
+<li>Richard Woods ... Ape Killed by Moon-Watcher (as Richard Wood)</li>
+</div>
+<div class="text" id="trivia_text">
+    <li>In the premier screening of the film, 241 people walked out of the theater, including Rock Hudson, who said, "Will someone tell me what the hell this is about?" Arthur C. Clarke once said, "If you understand '2001' completely, we failed. We wanted to raise far more questions than we answered."</li><br>
+    <li>The movie was not a financial success during the first weeks of its theatrical run. MGM was already planning to pull it back from theaters, when it was persuaded by several theater owners to keep showing the film. Many owners had observed increasing numbers of young adults attending the film, who were especially enthusiastic about watching the "Star Gate" sequence under the influence of psychotropic drugs. This helped the film to become a financial success in the end, despite the many negative reactions it received in the beginning.</li><br>
+    <li>According to Douglas Trumbull, the total footage shot was some 200 times the final length of the film.</li><br>
+    <li>There is no dialogue in the first 25 minutes of the movie (ending when a stewardess speaks at 25:38), nor in the last 23 minutes (excluding end credits). With these two lengthy sections and other shorter ones, there are around 88 dialogue-free minutes in the movie.</li><br>
+    <li>The last movie made about men on the moon before Neil Armstrong and Buzz Aldrin walked there in real life. More than 40 years later there are still conspiracy theorists who insist that this is not a coincidence, claiming that all footage of Armstrong's voyage was a hoax film directed by Stanley Kubrick using leftover scenes and props from this movie.</li><br>
+    <li>Having calculated that it would take one person 13 years to hand draw and paint all the mattes needed to insert the assorted spacecraft into the starry backgrounds, Kubrick hired 12 other people who then did the job in one year.
+</li><br><li>The only Oscar won by the film was for special visual effects. It was awarded to Stanley Kubrick--and was his sole win from 13 nominations. However, while Kubrick designed much of the look of the film and its effects, many of the technicians involved felt it was wrong for him to receive the sole credit. Following this controversy, the Academy tightened its eligibility rules.</li><br><li>At the beginning, the prehistorical African landscapes are just photographs, not actual clips.</li>
+</div>
+<a href="http://www.imdb.com/title/tt0062622/?ref_=ttpl_pl_tt" target="_blank" id="btn_logo"> 
+	<img src="images/logo2.png" width="150px">
+</a>
+<a href="index.html" id="btn_hal">
+	<img src="images/hal.png" width="40px">
+</a>
+</body>
+</html>
